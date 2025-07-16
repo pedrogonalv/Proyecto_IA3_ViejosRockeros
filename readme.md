@@ -3,7 +3,7 @@
 Realizado por el grupo *Viejos Rockeros*,compuesto por:  
 
 - Pedro González Álvarez.
-- Santiago Jorda ...
+- Santiago Jorda Ramos.
 
 
 TODO
