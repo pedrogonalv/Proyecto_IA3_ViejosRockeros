@@ -1,0 +1,11 @@
+{{ bos_token }}
+{%- for message in messages %}
+{%- if message.role == "user" %}
+User: {{ message.content }}
+{%- elif message.role == "assistant" %}
+Assistant: {{ message.content }}{{ eos_token if eos_token is defined else '</s>' }}
+{%- else %}
+{{ message.content }}
+{%- endif %}
+{%- if not loop.last %}\n{%- endif %}
+{%- endfor %}

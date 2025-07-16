@@ -1,0 +1,46 @@
+General:
+What documents are available?
+
+Lexium 32M
+Q:
+What is the parameter name for getting the motor velocity when an error was detected?
+
+A:
+_ERR_motor_v, pag465
+
+Q:
+What is the parameter address for setting the target position when in operating mode profile position?. I'm using Profibus.
+A:
+PPp_target, addr 6940, pag286
+
+
+AX5000
+Q:
+What is the nominal output current on an AX5112 controller, when usen in three-phase connection?
+
+A:
+12A, pag34
+
+Q:
+Can you give me the signals available on the X06 connector on an AX5000 system?
+
+A:
+24, VCC
+0-6, input 0-6
+7, input 7 or output.
+0V, GND.
+pag 77
+
+CC10.
+Q:
+On an CC 10, how many bytes are used on the digital interface for controlling 3 axis in an asynchronous configuration?
+A:
+40bytes
+pag 82
+
+Q:
+On a CC10 system i see an error code 'F008'. What it means?
+
+A:
+Servo fault, axis 1. setpoint too big to speed controller. feedback problem. Check motor feeder cable, measuring system, servo amplifier.
+pag 138

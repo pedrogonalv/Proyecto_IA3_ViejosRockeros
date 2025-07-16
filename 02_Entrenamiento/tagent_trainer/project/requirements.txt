@@ -1,0 +1,28 @@
+# Core Hugging Face libraries
+transformers>=4.36.0
+tokenizers==0.15.2
+datasets==2.18.0
+peft>=0.10.0
+#accelerate==0.30.0
+accelerate>=0.24.0,<0.28.0
+bitsandbytes==0.43.0
+fsspec[http]>=2023.1.0,<2024.3.0
+
+# Hugging Face Hub utilities
+#Needed to be updated when joining environment between training and convert.
+huggingface_hub==0.23.0
+
+# Tokenización y texto
+sentencepiece>=0.1.99
+scipy>=1.10.0
+
+# Para mostrar barras de progreso
+tqdm>=4.66.1
+
+# Carga estable del modelo mistral
+#trl==0.7.10
+
+# Para ejecución en GPUs de RunPod
+torch>=2.1.0
+
+protobuf==6.31.1
