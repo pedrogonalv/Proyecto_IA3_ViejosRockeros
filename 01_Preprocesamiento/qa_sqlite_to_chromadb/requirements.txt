@@ -1,0 +1,18 @@
+# Requisitos para migración pdf_data.db → ChromaDB
+
+# ChromaDB - Base de datos vectorial
+chromadb==0.4.22
+
+# Embeddings
+sentence-transformers==2.2.2
+
+# Utilidades
+psutil==5.9.6
+python-dotenv==1.0.0
+
+# Opcional - Para usar embeddings de OpenAI
+# openai==1.6.1
+
+# Nota: SQLite3 viene incluido con Python
+# Para mejor rendimiento, considerar instalar:
+# pip install "chromadb[all]"

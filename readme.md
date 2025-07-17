@@ -10,7 +10,8 @@ Realizado por el grupo **Viejos Rockeros**,compuesto por:
 ## Estructura del proyecto.
 
 El proyecto está estructurado según las diferentes etapas del ciclo de vida del mismo.  
-En el directorio raiz se encuentra la **memoria del proyecto**, *MemoriaProyecto.pdf*.  
+En el directorio raiz se encuentra la **memoria del proyecto**, *Memoria.md*. También se encuentra la **presentación**, *Presentacion.pptx*.
+
 A parte se encuentran una serie de subcarpetas, correspondiendo cada una a una etapa del ciclo de vida del sistema. Dentro de cada una de las carpetas se encuentra otro fichero `readme.md` con información más detalladas. 
 
 De ese modo se pueden encontrar las carpeats correspodientes a las siguientes etapas:
